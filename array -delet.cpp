@@ -1,4 +1,4 @@
-#include <iostrem>
+#include <stdio.h>
 
 int main()
 {
@@ -12,7 +12,7 @@ int main()
     for ( c = 0 ; c < n ; c++ )
     scanf("%d", &array[c]);
     
-    printf("Enter the number which you need to remove:- \n");
+    printf("Enter the number which element you need to delete:- \n");
     scanf("%d", &position);
     
     if ( position >= n+1 )    
